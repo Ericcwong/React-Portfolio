@@ -1,0 +1,18 @@
+[
+    {
+        "id":1,
+        "title": "Fast Hikes",
+        "image": "/images/project/FastHikes.png",
+        "description": "Project One: This was a group project collaboration with two classmates. This project is a hike finder that takes the amount of time the user has to drive to hike the trail, and drive back to their current destination. The way this program works is with two seperate API calls. One that pulls hikes from Open Trails and the other being Google maps API. These allow us to pull the hikes that are presented in the user's entered city. Google maps figures out how for the users distance is from the hike and calculates accordingly.",
+        "githubLink":"https://github.com/Ericcwong/FastHikes",
+        "deployedLink": "https://ericcwong.github.io/FastHikes/"
+    },
+    {
+        "id":2,
+        "title": "Oscar Watch",
+        "image": "/images/project/OscarWatch.png",
+        "description": "Oscar Watch is an application that allows user to search up movies that have been either nominated for an Oscar or received one. Oscar watch allows users to create an account and create a list of movies they would want to watch. Thus allowing for endless hours of binge watching movies that would leave you captivated till the end! So bust out the popcorn and beverage of choice and get comfortable with Oscar Watch!",
+        "githubLink":"https://github.com/Ericcwong/Oscar-Watch",
+        "deployedLink": "https://github.com/Ericcwong/Oscar-Watch"
+    }
+]

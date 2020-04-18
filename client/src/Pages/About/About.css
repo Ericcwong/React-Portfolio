@@ -1,0 +1,23 @@
+
+.content {
+    background-color: rgba(218, 218, 218, 0.85);
+    margin: 6% auto;
+    max-width: 1000px;
+    height: auto;
+    border: 3px solid coral;
+    grid-area: contentBlock;
+  
+  }
+  #selfie {
+    width: 200px;
+    margin-right: 20px;
+    float: left;
+  }
+  p {
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 1.25rem;
+  }
+  .socialMedia {
+    text-align: center;
+  }

@@ -1,0 +1,17 @@
+.footer {
+    grid-row-start: 2;
+    grid-row-end: 3;
+    text-align: center;
+    background-color: hsl(0, 0%, 100%);
+    opacity: 0.80;
+    grid-area: footer;
+  }
+a{
+    color:inherit;
+}
+  i{
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-bottom: -30px;
+    text-align: center;
+}
