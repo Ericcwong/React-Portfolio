@@ -2,21 +2,21 @@
 .content {
     background-color: rgba(218, 218, 218, 0.85);
     margin: 6% auto;
-    max-width: 1000px;
-    height: auto;
+    max-width: 90%;
+    height: 50rem;
     border: 3px solid coral;
     grid-area: contentBlock;
   
   }
-  #selfie {
-    width: 200px;
+  .container #selfie {
+    width: 18%;
     margin-right: 20px;
     float: left;
   }
   p {
     padding-left: 20px;
     padding-right: 20px;
-    font-size: 1.25rem;
+    font-size: 2rem;
   }
   .socialMedia {
     text-align: center;
