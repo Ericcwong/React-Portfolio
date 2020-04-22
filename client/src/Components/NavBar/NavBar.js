@@ -27,8 +27,9 @@ export default function NavBar() {
                         </li>
                         {/* Resume link */}
                         <li className="nav-item nav-item">
-                        <Link to="/resume"
-                        className={window.location.pathname === "/resume" ? "nav-link active" : "nav-link"}>
+                        <Link to="/Resume.pdf"
+                        target="_blank"
+                        className={window.location.pathname === "/Resume.pdf" ? "nav-link active" : "nav-link"}>
                             Resume
                         </Link>
                         </li>

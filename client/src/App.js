@@ -4,9 +4,9 @@ import "./style.css"
 //Pages
 import About from "./Pages/About/About";
 import Contact from "./Pages/Contact/Contact";
-import Home from "./Pages/Home";
+import Home from "./Pages/Home/Home";
 import Portfolio from "./Pages/Portfolio";
-import Resume from "./Pages/Resume";
+// import Resume from "./Pages/Resume/Resume.pdf";
 //Components
 import Footer from "./Components/Footer/Footer"
 import NavBar from "./Components/NavBar/NavBar"
@@ -23,8 +23,10 @@ function App() {
             <Route exact path="/about" component={About}/>
             <Route exact path="/contact" component={Contact}/>
             <Route exact path="/portfolio" component={Portfolio}/>
-            <Route exact path="/resume" component={Resume}/>
+            {/* <Route exact path="/resume" component={Resume}/> */}
+            
           </Wrapper>
+          
         </div>
         <Footer />
     </Router>

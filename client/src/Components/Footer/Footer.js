@@ -10,8 +10,8 @@ export default function Footer() {
                 <a href="https://www.instagram.com/itswongderful/" ><i id="instagram" className="fa fa-instagram fa-2x"></i></a>
                 <a href="https://twitter.com/itswongderful"><i id="twitter" className="fa fa-twitter-square fa-2x"></i></a>
             </div>
-            <p>Eric Wong</p>
-            <p>Copyright 2020 </p>
+            <p className="footerText">Eric Wong</p>
+            <p className="footerText">Copyright 2020 </p>
         </footer>
     )
 }

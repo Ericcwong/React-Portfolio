@@ -1,0 +1,21 @@
+.home{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(255,255,255,1) 0%, rgba(62,62,62,1) 100%);
+    margin: 6% auto;
+    max-width: 90%;
+    height: 25rem;
+    border: 3px solid black;
+    grid-area: contentBlock;
+    position: relative;
+}
+.homeContent{
+    top: 0;
+    height: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 7.5rem;
+    margin-bottom: 5rem;
+    width: 50%;
+    padding: 10px;
+    text-align: center;
+}
