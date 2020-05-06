@@ -10,10 +10,10 @@ export default function Card(props) {
     return ( 
         <div className="modal-body">
             <Row>
-                {props.CardData.map((props) =>{
+                {props.CardData.map((props, index) =>{
                 return(
                         // <div className="col-md-4 col-sm-6">
-                        <Col size="md-4">
+                        <Col size="md-4" key={index}>
                             <div className="card">
                                 <div className="card text-center">
                                     <div >

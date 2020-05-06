@@ -5,7 +5,7 @@ import "./style.css"
 import About from "./Pages/About/About";
 import Contact from "./Pages/Contact/Contact";
 import Home from "./Pages/Home/Home";
-import Portfolio from "./Pages/Portfolio";
+import Portfolio from "./Pages/Portfolio/Portfolio";
 // import Resume from "./Pages/Resume/Resume.pdf";
 //Components
 import Footer from "./Components/Footer/Footer"
