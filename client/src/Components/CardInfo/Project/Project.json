@@ -18,7 +18,7 @@
     {
         "id":3,
         "title": "React Portfolio",
-        "image": "/images/project/ReactPortfolio.png",
+        "image": "/images/project/ReactPortfolio.PNG",
         "description": "React Portfolio is built with React demonstrating a combination of React front end with back end Node.js",
         "githubLink":"https://github.com/Ericcwong/Oscar-Watch",
         "deployedLink": "https://github.com/Ericcwong/Oscar-Watch"
