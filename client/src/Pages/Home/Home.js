@@ -1,7 +1,7 @@
-import React from 'react'
-import "./home.css"
-import Col from "../../Components/Col/Col"
-import Row from "../../Components/Row/Row"
+import React from 'react';
+import "./home.css";
+import Col from "../../Components/Col/Col";
+import Row from "../../Components/Row/Row";
 function Home() {
     return (
         <div className = "container">

@@ -2,6 +2,7 @@ import React from 'react'
 import "./style.css"
 import Col from "../Col/Col"
 import Row from "../Row/Row"
+
 export default function Card(props) {
     // let cardInfo = document.getElementsByClassName("card-body");
     // cardInfo.addEventListener("mouseover", ()=>{
