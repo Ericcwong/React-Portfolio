@@ -18,4 +18,17 @@
     width: 50%;
     padding: 10px;
     text-align: center;
+    animation-name: slideIn;
+}
+@keyframes slineIn{
+    0% {
+        margin-left: 0%;
+      }
+      50% {
+        margin-left: 300px;
+      }
+      100% {
+        margin-left: 0%;
+      }
+    
 }

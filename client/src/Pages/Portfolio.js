@@ -8,9 +8,7 @@ function Portfolio() {
         <div>
             <h1> Group Project </h1>
             <Card CardData={ProjectData}/>
-            <h1>Front end development</h1>
-            <Card CardData={FrontEndData}/>
-            <h1>Back end development</h1>
+            <h1>Individual Project</h1>
             <Card CardData={BackEndData}/>
         </div>
 

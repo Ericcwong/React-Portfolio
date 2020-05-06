@@ -22,9 +22,11 @@ export default function Card(props) {
                                     <div className="card-body text-dark">
                                         <h4>{props.title}</h4>
                                         <p className="card-text text-secondary">{props.description}</p>
-                                        <a href={props.githubLink} className="btn btn-outline">GitHub</a>
-                                        <a href={props.deployedLink} className="btn btn-outline">Heroku</a>
                                     </div>
+                                </div>
+                                <div className="card-footer">
+                                    <a href={props.githubLink} className="btn btn-outline">GitHub</a>
+                                    <a href={props.deployedLink} className="btn btn-outline">Heroku</a>
                                 </div>
                             </div>
                             </Col>
