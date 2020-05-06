@@ -3,7 +3,7 @@
     background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(255,255,255,1) 0%, rgba(62,62,62,1) 100%);
     margin: 6% auto;
     max-width: 90%;
-    height: 25rem;
+    height: 28rem;
     border: 3px solid black;
     grid-area: contentBlock;
     position: relative;
@@ -31,4 +31,24 @@
         margin-left: 0%;
       }
     
+}
+@media only screen and (max-width: 900px) {
+  .home{
+    height: 30rem;
+  }
+  p{
+    font-size: 1.5rem;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .home{
+    height: 35rem;
+  }
+  .homeContent{
+    margin-top: 0;
+    width: auto;
+  }
+  p{
+    font-size: 1.5rem;
+  }
 }
